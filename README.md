@@ -20,3 +20,11 @@ Sera criado um diretorio anterior ao projeto para conter o venv, que faço separ
     (venv) pip freeze > requirements.txt
     (venv) pip install -r requirements.txt
 
+### Criação do Projeto e Aplicação 
+
+    django-admin startproject djangoRestOrm
+    cd djangoRestOrm
+    python manage.py startapp users
+    python manage.py makemigrations
+    python manage.py migrate
+
